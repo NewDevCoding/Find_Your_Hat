@@ -52,10 +52,10 @@ class Field {
         this.locationY += 1;
         break;
       case 'L':
-        this.locationX += 1;
+        this.locationX -= 1;
         break;
       case 'R':
-        this.locationX -= 1;
+        this.locationX += 1;
         break;
       default:
         console.log('Enter U, D, L, or R');
